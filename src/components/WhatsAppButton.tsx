@@ -8,9 +8,13 @@ const WhatsAppButton = () => {
     return () => clearTimeout(timer);
   }, []);
 
+  const message = encodeURIComponent(
+    "Olá! Vim pelo site do Victor Instituto de Beleza, gostei muito do trabalho e quero saber sobre horários disponíveis."
+  );
+
   return (
     <a
-      href="https://wa.me/5584994555682?text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Victor%20Instituto%20de%20Beleza%2C%20gostei%20muito%20do%20trabalho%20e%20quero%20saber%20sobre%20hor%C3%A1rios%20dispon%C3%ADveis."
+      href={`https://api.whatsapp.com/send?phone=5584994555682&text=${message}`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Fale conosco pelo WhatsApp"
