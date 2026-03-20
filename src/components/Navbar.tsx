@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
 
         <a
-          href="https://wa.me/5584994555682"
+          href="https://api.whatsapp.com/send?phone=5584994555682&text=Ol%C3%A1!%20Vim%20pelo%20site%20do%20Victor%20Instituto%20de%20Beleza%2C%20gostei%20muito%20do%20trabalho%20e%20quero%20saber%20sobre%20hor%C3%A1rios%20dispon%C3%ADveis."
           target="_blank"
           rel="noopener noreferrer"
           className={`font-body text-xs tracking-[0.15em] uppercase px-5 py-2.5 rounded-sm transition-all duration-300 active:scale-95 ${
